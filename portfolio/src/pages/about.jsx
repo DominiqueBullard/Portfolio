@@ -1,5 +1,4 @@
-import Image from '/Users/dbullard.if25/TKH_25/Profolio/Portfolio/portfolio/src/picture/Logo.png'
-
+import Image from '../picture/Logo.png'
 export default function about(){
     return(
     <div className="flex min-h-screen">
