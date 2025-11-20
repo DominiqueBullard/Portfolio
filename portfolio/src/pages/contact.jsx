@@ -5,7 +5,12 @@ export default function contact(){
       <div className="bg-red-900 text-white flex items-center justify-center w-1/3 p-8">
         <h1 className="text-5xl font-bold">Contact</h1>
       </div>
-
+      <textarea
+        id="note"
+        placeholder="Add a note..."
+        value={note}
+        onChange={(e) => setNote(e.target.value)}
+      />
     
       <div className="text-gray-100 bg-gray-800 flex items-center justify-center w-full p-8">
       <div>
